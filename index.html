@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<script>
+    function gotoLink(link) {
+        console.log(link.value);
+        location.href = link.value;
+    };
+</script>
 <html>
     <head>
         <link rel="stylesheet" href="app.css"/>
@@ -6,12 +12,17 @@
     <body>
         <h1>New England Concerts</h1>
         <h2>Site Under Construction</h2>
-        <button onclick="gotoLink(this)" value = "https://www.youtube.com/@NewEnglandConcerts">Youtube Channel</button>
-        <script>
-        function gotoLink(link) {
-            console.log(link.value);
-            location.href = link.value;
-        };
-        </script>
+        <div class="youtubelinkbutton">
+            <div class="youtubelinkcenter">
+                <button onclick="gotoLink(this)" value = "https://www.youtube.com/@NewEnglandConcerts">Youtube Channel</button>
+            </div>
+          </div>
+          <img src = ".\images\youtubelogo.png" width="100" height="50">
+          <div class="setlistlinkbutton">
+            <div class="setlistlinkcenter">
+                <button onclick="gotoLink(this)" value = "https://www.setlist.fm/concerts/djkarate1">Concerts</button>
+            </div>
+          </div>
+          <img src = ".\images\setlistfmlogo.png" width="100" height="50">
     </body>
 </html>

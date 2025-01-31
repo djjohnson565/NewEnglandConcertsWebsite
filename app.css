@@ -1,7 +1,40 @@
 h1 {
     color : white;
+    font-size: 50px;
+    text-align : center;
+    font-family: "Copperplate", fantasy;
+    -webkit-text-stroke: 1px black
 }
 
 body {
     background-color: slategray;
+    text-align : center;
+}
+
+.youtubelinkbutton {
+    height: 25px;
+    position: relative;
+  }
+  
+.youtubelinkcenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.setlistlinkbutton {
+    height: 25px;
+    position: relative;
+}
+  
+.setlistlinkcenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
