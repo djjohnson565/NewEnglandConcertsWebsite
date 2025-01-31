@@ -1,6 +1,7 @@
 .topnav {
     background-color : black;
     overflow: hidden;
+    font-family: Arial;
   }
 
 .topnav a {
@@ -13,7 +14,7 @@
     border-right: 1px solid blue;
 }
 
-.topnav a:hover {
+.topnav a:hover, .dropdown:hover .dropbtn {
     background-color: white;
     color: black;
 }
@@ -21,6 +22,51 @@
 .topnav a.active {
     background-color :darkcyan;
     color: white;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: lightskyblue;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    float: none;
+    position: relative;
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    position: relative;
+    float: none;
+    color: lightskyblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    float: none;
+    position: relative;
+    background-color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    float: none;
+    position: relative;
+    display: block;
 }
 
 h1 {
