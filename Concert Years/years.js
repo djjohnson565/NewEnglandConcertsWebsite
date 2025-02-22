@@ -1,26 +1,26 @@
 
-window.onload = function() {
+    window.onload = function() {
     
-    const navbarHTML = `
+        const navbarHTMLYears = `
         <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="gallery.html">Gallery</a>
+            <a class="active" href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../contact.html">Contact</a>
+            <a href="../gallery.html">Gallery</a>
             <div class="dropdown">
                 <button class="dropbtn">Concert Years
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="Concert%20Years/2025.html">2025</a>
-                    <a href="Concert%20Years/2024.html">2024</a>
-                    <a href="Concert%20Years/2023.html">2023</a>
-                    <a href="Concert%20Years/2022.html">2022</a>
+                    <a href="2025.html">2025</a>
+                    <a href="2024.html">2024</a>
+                    <a href="2023.html">2023</a>
+                    <a href="2022.html">2022</a>
                 </div>
             </div>
         </div>
     `;
-    document.getElementById('navbar').innerHTML = navbarHTML;
+    document.getElementById('navbarYears').innerHTML = navbarHTMLYears;
 
     const footerHTML = `
         <div class="disclaimer-container">
@@ -29,5 +29,5 @@ window.onload = function() {
             </div>
         </div>
     `;
-    document.getElementById('footer').innerHTML = footerHTML;
-};
+    document.getElementById('footerYears').innerHTML = footerHTML;
+    };

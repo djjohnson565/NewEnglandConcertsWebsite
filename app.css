@@ -83,36 +83,6 @@ body {
     overflow-y: scroll;
 }
 
-.youtubelinkbutton {
-    width: 250px;
-    height: auto;
-    position: relative;
-  }
-  
-.youtubelinkcenter {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.setlistlinkbutton {
-    width: 250px;
-    height: auto;
-    position: relative;
-}
-  
-.setlistlinkcenter {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .button {
     background: none;
     border: none;
