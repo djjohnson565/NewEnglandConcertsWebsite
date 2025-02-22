@@ -1,3 +1,5 @@
+console.log("2025.js loaded!");
+
 const events2025 = [
     {
       name: "Roger Waters",

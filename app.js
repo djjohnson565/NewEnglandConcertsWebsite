@@ -1,6 +1,6 @@
 
 window.onload = function() {
-    
+    console.log("app.js loaded!");
     const navbarHTML = `
         <div class="topnav">
             <a class="active" href="index.html">Home</a>

@@ -1,3 +1,5 @@
+console.log("2024.js loaded!");
+
 const events2024 = [
     {
       name: "Fall Out Boy w/ Jimmy Eat World, Hot Mulligan, Games We Play",

@@ -1,3 +1,5 @@
+console.log("2023.js loaded!");
+
 const events2023 = [
     {
       name: "Dead & Company",
