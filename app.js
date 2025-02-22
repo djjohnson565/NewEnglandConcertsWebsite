@@ -1,22 +1,22 @@
 console.log("app.js loaded!");
     const navbarHTML = `
         <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="gallery.html">Gallery</a>
-            <div class="dropdown">
-                <button class="dropbtn">Concert Years
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="2025.html" onclick="console.log('Navigating to 2025.html');>2025</a>
-                    <a href="2024.html" onclick="console.log('Navigating to 2024.html');>2024</a>
-                    <a href="2023.html" onclick="console.log('Navigating to 2023.html');>2023</a>
-                    <a href="2022.html" onclick="console.log('Navigating to 2022.html');>2022</a>
-                </div>
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <div class="dropdown">
+            <button class="dropbtn">Concert Years
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="2025.html">2025</a>
+              <a href="2024.html">2024</a>
+              <a href="2023.html">2023</a>
+              <a href="2022.html">2022</a>
             </div>
         </div>
+    </div>
     `;
     document.getElementById('navbar').innerHTML = navbarHTML;
 
