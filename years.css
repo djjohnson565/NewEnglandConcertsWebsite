@@ -148,3 +148,10 @@ footer {
     margin: 0;
     font-size: 14px;
 }
+
+.disclaimer-container {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
