@@ -19,22 +19,20 @@
     </div>
     <head>
         <link rel="stylesheet" href="app.css"/>
+        <title>New England Concerts: About</title>
     </head>
     <body>
         <h1>New England Concerts</h1>
         <h2>Rock/Metal focused concert footage from around New England! Based out of Central Massachusetts/Metro West.</h2>
-        <div class="youtubelinkbutton">
-            <div class="youtubelinkcenter">
-                <button onclick="gotoLink(this)" value = "https://www.youtube.com/@NewEnglandConcerts">Youtube Channel</button>
-            </div>
-          </div>
-          <img src = ".\images\youtubelogo.png" width="100" height="50">
-          <div class="setlistlinkbutton">
-            <div class="setlistlinkcenter">
-                <button onclick="gotoLink(this)" value = "https://www.setlist.fm/concerts/djkarate1">Concerts</button>
-            </div>
-          </div>
-          <img src = ".\images\setlistfmlogo.png" width="100" height="50">
+        <button class="button" onclick="window.open('https://www.youtube.com/@NewEnglandConcerts', '_blank');">
+          <img src=".\images\youtubelogo.png" alt="Button Image">
+        <button class="button" onclick="window.open('https://www.setlist.fm/user/djkarate1', '_blank');">
+            <img src=".\images\setlistfmlogo.png" alt="Button Image">
           <script src="app.js"></script>
     </body>
+    <div class="disclaimer-container">
+      <div class="disclaimer">
+          <p><strong>Disclaimer:</strong> This website is an independent, non-profit platform showcasing various rock bands and brands. We are not affiliated with, endorsed by, or sponsored by any of the bands, brands, or entities featured on this site. All trademarks, logos, and band names are the property of their respective owners. The content displayed on this website is for informational purposes only and does not imply any commercial intent.</p>
+      </div>
+  </div>
 </html>
