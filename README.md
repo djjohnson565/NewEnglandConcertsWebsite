@@ -5,5 +5,6 @@ newenglandconcerts.club
 Changelog 2/22/25
 Added concert years!
 
-Update 1:10AM EDT 2/22/25:
-Website host is actively making changes, the site may not work as intended for about the next 24 hours.
+Update 12:42pm EDT 2/22/25:
+Website is up and running again!
+Please view the site on a computer/desktop/laptop in an incognito browser to reset any web browser styling settings. This site is not suited for mobile browsing (yet!).
