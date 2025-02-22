@@ -12,10 +12,10 @@ window.onload = function() {
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="Concert%20Years/2025.html">2025</a>
-                    <a href="Concert%20Years/2024.html">2024</a>
-                    <a href="Concert%20Years/2023.html">2023</a>
-                    <a href="Concert%20Years/2022.html">2022</a>
+                    <a href="2025.html">2025</a>
+                    <a href="2024.html">2024</a>
+                    <a href="2023.html">2023</a>
+                    <a href="2022.html">2022</a>
                 </div>
             </div>
         </div>

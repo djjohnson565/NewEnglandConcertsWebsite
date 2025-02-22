@@ -4,9 +4,9 @@
         const navbarHTMLYears = `
         <div class="topnav">
             <a class="active" href="../index.html">Home</a>
-            <a href="../about.html">About</a>
-            <a href="../contact.html">Contact</a>
-            <a href="../gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="gallery.html">Gallery</a>
             <div class="dropdown">
                 <button class="dropbtn">Concert Years
                   <i class="fa fa-caret-down"></i>
