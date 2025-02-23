@@ -68,7 +68,7 @@ const events2025 = [
   ];
   
   const eventContainer2025 = document.getElementById('event-container');
-  events2022.forEach(event => {
+  events2025.forEach(event => {
     const rectangleDiv = document.createElement('div');
     rectangleDiv.classList.add('rectangle');
   
