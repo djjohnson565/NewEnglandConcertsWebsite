@@ -26,7 +26,7 @@ const events2025 = [
       youtubeUrl: null
     },
     {
-      name: "<Fall Out Boy - Avril Lavinge>",
+      name: "Fall Out Boy - Avril Lavinge",
       venue: "Harvard Athletic Complex - Boston, MA",
       date: "May 24, 2025",
       tour: "Boston Calling Day 2",
@@ -34,7 +34,7 @@ const events2025 = [
       youtubeUrl: null
     },
     {
-      name: "<Dave Matthews Band - Vampire Weekend>",
+      name: "Dave Matthews Band - Vampire Weekend",
       venue: "Harvard Athletic Complex - Boston, MA",
       date: "May 25, 2025",
       tour: "Boston Calling Day 3",
