@@ -7,7 +7,8 @@ const events2025 = [
       date: "March 14, 2025",
       tour: "The Sickness 25th Anniversary Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/4G74gtXOnEoCzoFGbnPqhS?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "disturbed.html"
     },
     {
       name: "Heart w/ Lucina Williams",
@@ -15,7 +16,8 @@ const events2025 = [
       date: "April 13, 2025",
       tour: "Royal Flush Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/46G1qfDzK0e8zkmdWMhamS?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "heart.html"
     },
     {
       name: "AC/DC w/ The Pretty Reckless",
@@ -23,7 +25,8 @@ const events2025 = [
       date: "May 4, 2025",
       tour: "Power Up Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/0MogriMzvqstTxrMLP7h0a?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "acdc.html"
     },
     {
       name: "Fall Out Boy - Avril Lavinge",
@@ -31,7 +34,8 @@ const events2025 = [
       date: "May 24, 2025",
       tour: "Boston Calling Day 2",
       playlistUrl: "https://open.spotify.com/embed/playlist/3lMHlvnYn0aLk2tfHllGfU?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "bostoncalling2.html"
     },
     {
       name: "Dave Matthews Band - Vampire Weekend",
@@ -39,7 +43,8 @@ const events2025 = [
       date: "May 25, 2025",
       tour: "Boston Calling Day 3",
       playlistUrl: "https://open.spotify.com/embed/playlist/6q3owYoeYD08fHvXE9exl5?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "bostoncalling3.html"
     },
     {
       name: "Coldplay w/ Ayra Starr, Elyanna",
@@ -47,7 +52,8 @@ const events2025 = [
       date: "July 16, 2025",
       tour: "Music of the Spheres Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/04NFoN8K6hVftj9ruBPflI?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "coldplay.html"
     },
     {
       name: "Linkin Park w/ PVRIS",
@@ -55,7 +61,8 @@ const events2025 = [
       date: "August 1, 2025",
       tour: "From Zero World Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/4zafK8fD5zlvPq70y2D9iG?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "linkinpark.html"
     },
     {
       name: "My Chemical Romance w/ IDLES",
@@ -63,7 +70,8 @@ const events2025 = [
       date: "September 7, 2025",
       tour: "\"Long Live\" The Black Parade 2025 North American Stadium Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/2JO1MaKcse0tXQKDvDrjRf?utm_source=generator",
-      youtubeUrl: null
+      youtubeUrl: null,
+      page: "mcr.html"
     }
   ];
   
@@ -97,10 +105,20 @@ const events2025 = [
       button.classList.add('button');
       button.setAttribute('onclick', `window.open('${event.youtubeUrl}', '_blank')`);
       const img = document.createElement('img');
-      img.src = "youtubelogo.png";
+      img.src = "../../Images/youtubelogo.png";
       img.alt = "Button Image";
       button.appendChild(img);
       rectangleDiv.appendChild(button);
+    }
+
+    if (event.page) {
+      const button2 = document.createElement('button');
+      button2.classList.add('button');
+      button2.setAttribute('onclick', `window.location.href = '${event.page}';`);
+      button2.textContent = "Details";
+      button2.style.backgroundColor = "#4CAF50";
+      button2.style.color = "white";
+      rectangleDiv.appendChild(button2);
     }
   
     eventContainer2025.appendChild(rectangleDiv);

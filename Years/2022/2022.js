@@ -41,7 +41,7 @@ const events2022 = [
       button.classList.add('button');
       button.setAttribute('onclick', `window.open('${event.youtubeUrl}', '_blank')`);
       const img = document.createElement('img');
-      img.src = "youtubelogo.png";
+      img.src = "../../Images/youtubelogo.png";
       img.alt = "Button Image";
       button.appendChild(img);
       rectangleDiv.appendChild(button);

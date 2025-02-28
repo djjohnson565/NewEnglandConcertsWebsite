@@ -2,10 +2,9 @@
 
 newenglandconcerts.club
 
-Changelog 2/22/25
-Added concert years!
+Changelog 2/27/25:
+ - Changed entire site directories
+ - Added pages for 2025 concerts
+ - Clicking site logo now redirects to home page
 
-Update 10:45pm EDT 2/22/25:
-Website is currently up and running!
-
-There are still some minor changes coming into affect within the next 24-48 hours, but nothing that will impact the browsing experience. Check back for any updates!
+Site caching in the browser should be disabled, this is still being expirimented on.

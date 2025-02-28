@@ -1,24 +1,24 @@
 console.log("app.js loaded!");
-    const navbarHTMLHome = `
+    const navbarHTMLYear = `
         <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="gallery.html">Gallery</a>
+        <a class="active" href="../../index.html">Home</a>
+        <a href="../../about.html">About</a>
+        <a href="../../contact.html">Contact</a>
+        <a href="../../gallery.html">Gallery</a>
         <div class="dropdown">
             <button class="dropbtn">Concert Years
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="Years/2025/2025.html">2025</a>
-              <a href="Years/2024/2024.html">2024</a>
-              <a href="Years/2023/2023.html">2023</a>
-              <a href="Years/2022/2022.html">2022</a>
+              <a href="../2025/2025.html">2025</a>
+              <a href="../2024/2024.html">2024</a>
+              <a href="../2023/2023.html">2023</a>
+              <a href="../2022/2022.html">2022</a>
             </div>
         </div>
     </div>
     `;
-    document.getElementById('navbar').innerHTML = navbarHTMLHome;
+    document.getElementById('navbar').innerHTML = navbarHTMLYear;
 
     const footerHTML = `
         <div class="disclaimer-container">
