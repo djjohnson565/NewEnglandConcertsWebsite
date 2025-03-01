@@ -1,5 +1,3 @@
-AddType video/ogg .ogv
 AddType video/mp4 .mp4
-AddType video/mp4 .mov
 AddType video/webm .webm
 ErrorDocument 404 /404.html
