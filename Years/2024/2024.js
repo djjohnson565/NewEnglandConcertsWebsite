@@ -199,7 +199,7 @@ const events2024 = [
       {
         name: "Jeff Lynne's ELO w/ Rooney",
         venue: "TD Garden - Boston, MA",
-        date: "September 26, 2024",
+        date: "September 23, 2024",
         tour: "The Over And Out Tour",
         playlistUrl: "https://open.spotify.com/embed/playlist/4MjTvs8FVPdqRwZca6y1aQ?utm_source=generator",
         youtubeUrl: "https://www.youtube.com/watch?v=kiE5WeseT6Q&list=PLmS7BWqMf0kkD_Ng4WS_8lA94k4_kVD7q&pp=gAQB",

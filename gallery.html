@@ -14,12 +14,20 @@
         New England Concerts
       </h1>
       <h2>Gallery Coming Soon!</h2>
-      <button class="button" onclick="window.open('https://www.youtube.com/@NewEnglandConcerts', '_blank');">
-        <img src="Images/youtubelogodark.png" alt="Button Image">
-      </button>
-      <button class="button" onclick="window.open('https://www.setlist.fm/user/djkarate1', '_blank');">
-        <img src="Images/setlistfmlogo.png" alt="Button Image">
-      </button>
+
+    <div id="gallery-container">
+    </div>
+
+    <div id="lightbox">
+      <div id="lightbox-content">
+        <img id="lightbox-image" src="" alt="Enlarged Photo" />
+        <div id="lightbox-description">
+          <p id="lightbox-artist"></p>
+          <p id="lightbox-date"></p>
+        </div>
+      </div>
+    </div>
+
       <div id="footer"></div>
       <script src="app.js"></script>
   </body>

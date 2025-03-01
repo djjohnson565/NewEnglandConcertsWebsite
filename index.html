@@ -11,17 +11,19 @@
     </head>
     <body>
       <div id="navbar"></div>
-      <h1 onclick="window.location.href='index.html';" style="cursor: pointer;">
-        New England Concerts
-      </h1>
-      <h2>Site building in progress: please refresh page on each visit while we fix the issue.</h2> 
-      <h3>Check Back Later For Updates!</h3>
-      <button class="button" onclick="window.open('https://www.youtube.com/@NewEnglandConcerts', '_blank');">
-        <img src="Images/youtubelogodark.png" alt="Button Image">
-      </button>
-      <button class="button" onclick="window.open('https://www.setlist.fm/user/djkarate1', '_blank');">
-        <img src="Images/setlistfmlogo.png" alt="Button Image">
-      </button>
+      <div class="background-video">
+        <video autoplay muted loop>
+            <source src="Videos/backgroundvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class = "content">
+        <h1 onclick="window.location.href='index.html';" style="cursor: pointer;">
+          New England Concerts
+        </h1>
+        <h2>Site building in progress: please refresh page on each visit while we fix the issue.</h2> 
+        <h3>Check Back Later For Updates!</h3>
+      </div>
       <div id="footer"></div>
       <script src="app.js"></script>
   </body>

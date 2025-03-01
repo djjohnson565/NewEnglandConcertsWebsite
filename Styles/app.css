@@ -1,8 +1,9 @@
+
 .topnav {
-    background-color : black;
+    background-color: black;
     overflow: hidden;
     font-family: Arial;
-  }
+}
 
 .topnav a {
     float: left;
@@ -20,7 +21,7 @@
 }
 
 .topnav a.active {
-    background-color :darkcyan;
+    background-color: darkcyan;
     color: white;
 }
 
@@ -42,10 +43,10 @@
     position: absolute;
     background-color: gray;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-  
+
 .dropdown-content a {
     float: none;
     position: relative;
@@ -56,13 +57,13 @@
     display: block;
     text-align: left;
 }
-  
+
 .dropdown-content a:hover {
     float: none;
     position: relative;
     background-color: white;
 }
-  
+
 .dropdown:hover .dropdown-content {
     float: none;
     position: relative;
@@ -70,17 +71,45 @@
 }
 
 h1 {
-    color : white;
+    color: white;
     font-size: 50px;
-    text-align : center;
+    text-align: center;
     font-family: "Copperplate", fantasy;
-    -webkit-text-stroke: 1px black
+    -webkit-text-stroke: 1px black;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 body {
     background-color: slategray;
-    text-align : center;
-    overflow-y: scroll;
+    text-align: center;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    flex: 1;
 }
 
 .button {
@@ -97,6 +126,12 @@ body {
     border-radius: 5px;
 }
 
+.button-container {
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -105,6 +140,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    position: relative;
+    margin-top: auto;
 }
 
 .disclaimer p {
@@ -117,4 +154,86 @@ footer {
     padding: 20px;
     background-color: #f4f4f4;
     text-align: center;
+}
+
+#gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .photo-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .photo-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .photo-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .photo-description {
+    margin-top: 10px;
+  }
+  
+  .artist,
+  .date {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .artist {
+    font-weight: bold;
+  }
+  
+  .date {
+    color: gray;
+  }
+
+  #lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  #lightbox-content {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+  }
+  
+  #lightbox-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  #lightbox-description {
+    margin-top: 15px;
+  }
+  
+  #lightbox-artist,
+  #lightbox-date {
+    font-size: 16px;
   }
