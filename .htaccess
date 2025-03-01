@@ -1,4 +1,1 @@
-<FilesMatch "\.(mp4)$">
-    Header set Access-Control-Allow-Origin "*"
-</FilesMatch>
 ErrorDocument 404 /404.html
