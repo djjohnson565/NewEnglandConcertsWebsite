@@ -1,3 +1,5 @@
+
+console.log("gallery.js loaded!");
 const photos = [
     {
       src: "Images/newenglandconcertslogo.png",
