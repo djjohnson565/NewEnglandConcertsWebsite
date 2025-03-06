@@ -65,6 +65,15 @@ const events2025 = [
       page: "linkinpark.html"
     },
     {
+      name: "The Offspring w/ Jimmy Eat World, New Found Glory",
+      venue: "Xfinity Center - Mansfield, MA",
+      date: "July 30, 2025",
+      tour: "Supercharged Worldwide In \'25",
+      playlistUrl: "https://open.spotify.com/embed/playlist/3lm7TrOe6602E4UmvDov6O?utm_source=generator",
+      youtubeUrl: null,
+      page: "offspring.html"
+    },
+    {
       name: "My Chemical Romance w/ IDLES",
       venue: "Fenway Park - Boston, MA",
       date: "September 7, 2025",
@@ -72,6 +81,15 @@ const events2025 = [
       playlistUrl: "https://open.spotify.com/embed/playlist/2JO1MaKcse0tXQKDvDrjRf?utm_source=generator",
       youtubeUrl: null,
       page: "mcr.html"
+    },
+    {
+      name: "Eric Clapton w/ The Wallflowers",
+      venue: "TD Garden - Boston, MA",
+      date: "September 16, 2025",
+      tour: "Fall 2025 Tour",
+      playlistUrl: "https://open.spotify.com/embed/playlist/46dUH7egLky6ibVeXJhyYC?utm_source=generator",
+      youtubeUrl: null,
+      page: "ericclapton.html"
     }
   ];
   
