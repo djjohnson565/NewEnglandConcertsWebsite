@@ -157,84 +157,88 @@ footer {
 }
 
 #gallery-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .photo-item {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .photo-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .photo-image:hover {
-    transform: scale(1.05);
-  }
-  
-  .photo-description {
-    margin-top: 10px;
-  }
-  
-  .artist,
-  .date {
-    margin: 5px 0;
-    font-size: 14px;
-  }
-  
-  .artist {
-    font-weight: bold;
-  }
-  
-  .date {
-    color: gray;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
 
-  #lightbox {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-  }
-  
-  #lightbox-content {
-    text-align: center;
-    background: rgb(28, 69, 80);
-    color: #f4f4f4;
-    padding: 20px;
-    max-width: 80%;
-    max-height: 80%;
-    overflow: auto;
-  }
-  
-  #lightbox-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  #lightbox-description {
-    margin-top: 15px;
-  }
-  
-  #lightbox-artist,
-  #lightbox-date {
-    font-size: 16px;
-  }
+.photo-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex; /* Ensures photo-item resizes based on image size */
+  flex-direction: column; /* Stacks image and description vertically */
+  align-items: center; /* Centers content horizontally */
+}
+
+.photo-image {
+  width: 100%; /* Ensures image takes full width of its container */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  object-fit: contain; /* Ensures the image fits within its container without distortion */
+}
+
+.photo-image:hover {
+  transform: scale(1.05);
+}
+
+.photo-description {
+  margin-top: 10px;
+}
+
+.artist,
+.date {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+.date {
+  color: gray;
+}
+
+#lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+#lightbox-content {
+  text-align: center;
+  background: rgb(28, 69, 80);
+  color: #f4f4f4;
+  padding: 20px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+}
+
+#lightbox-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#lightbox-description {
+  margin-top: 15px;
+}
+
+#lightbox-artist,
+#lightbox-date {
+  font-size: 16px;
+}
