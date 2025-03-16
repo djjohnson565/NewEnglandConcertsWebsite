@@ -7,7 +7,7 @@ const events2025 = [
       date: "March 14, 2025",
       tour: "The Sickness 25th Anniversary Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/4G74gtXOnEoCzoFGbnPqhS?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=pAAKTnhmfYQ&list=PLmS7BWqMf0kmxSpVFFeqfhVU5B2-PTxbS",
       page: "disturbed.html"
     },
     {
