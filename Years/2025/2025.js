@@ -56,15 +56,6 @@ const events2025 = [
       page: "coldplay.html"
     },
     {
-      name: "Linkin Park w/ PVRIS",
-      venue: "TD Garden - Boston, MA",
-      date: "August 1, 2025",
-      tour: "From Zero World Tour",
-      playlistUrl: "https://open.spotify.com/embed/playlist/4zafK8fD5zlvPq70y2D9iG?utm_source=generator",
-      youtubeUrl: null,
-      page: "linkinpark.html"
-    },
-    {
       name: "The Offspring w/ Jimmy Eat World, New Found Glory",
       venue: "Xfinity Center - Mansfield, MA",
       date: "July 30, 2025",
@@ -72,6 +63,15 @@ const events2025 = [
       playlistUrl: "https://open.spotify.com/embed/playlist/3lm7TrOe6602E4UmvDov6O?utm_source=generator",
       youtubeUrl: null,
       page: "offspring.html"
+    },
+    {
+      name: "Linkin Park w/ PVRIS",
+      venue: "TD Garden - Boston, MA",
+      date: "August 1, 2025",
+      tour: "From Zero World Tour",
+      playlistUrl: "https://open.spotify.com/embed/playlist/4zafK8fD5zlvPq70y2D9iG?utm_source=generator",
+      youtubeUrl: null,
+      page: "linkinpark.html"
     },
     {
       name: "My Chemical Romance w/ IDLES",
