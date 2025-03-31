@@ -5,7 +5,7 @@ const photos = [
       src: "Images/newenglandconcertslogo.png",
       artist: "New England Concerts Logo",
       date: "Est. 2024"
-    },
+    }/*,
     {
       src: "PhotoGallery/blueoystercult.png",
       artist: "",
@@ -50,7 +50,7 @@ const photos = [
       src: "PhotoGallery/FOBStage.jpeg",
       artist: "",
       date: ""
-    },
+    },*/
   ];
 
 function createGallery() {
