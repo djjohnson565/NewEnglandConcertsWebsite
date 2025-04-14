@@ -5,52 +5,7 @@ const photos = [
       src: "Images/newenglandconcertslogo.png",
       artist: "New England Concerts Logo",
       date: "Est. 2024"
-    }/*,
-    {
-      src: "PhotoGallery/blueoystercult.png",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/bobweir.png",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/CheapTrick.jpeg",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/deadFenway.jpeg",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/DefLeppard.jpeg",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/DefLeppardSign.jpeg",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/DSOTM.jpg",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/FOBSign.jpeg",
-      artist: "",
-      date: ""
-    },
-    {
-      src: "PhotoGallery/FOBStage.jpeg",
-      artist: "",
-      date: ""
-    },*/
+    }
   ];
 
 function createGallery() {

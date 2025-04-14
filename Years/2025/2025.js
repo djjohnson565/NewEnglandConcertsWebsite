@@ -16,7 +16,7 @@ const events2025 = [
       date: "April 13, 2025",
       tour: "Royal Flush Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/46G1qfDzK0e8zkmdWMhamS?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/playlist?list=PLmS7BWqMf0kkOoYqcxPVuloqT-VOs00Jj",
       page: "heart.html"
     },
     {
@@ -72,6 +72,24 @@ const events2025 = [
       playlistUrl: "https://open.spotify.com/embed/playlist/4zafK8fD5zlvPq70y2D9iG?utm_source=generator",
       youtubeUrl: null,
       page: "linkinpark.html"
+    },
+    {
+      name: "Chevelle w/ Asking Alexandria, Dead Poet Society",
+      venue: "MGM Music Hall @ Fenway - Boston, MA",
+      date: "August 24, 2025",
+      tour: "Tour",
+      playlistUrl: null,
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "Creed w/ Daughtry, Mammoth WVH",
+      venue: "Amica Mutual Pavilion - Providence, RI",
+      date: "August 27, 2025",
+      tour: "Summer of \'99 Tour",
+      playlistUrl: null,
+      youtubeUrl: null,
+      page: null
     },
     {
       name: "My Chemical Romance w/ IDLES",
