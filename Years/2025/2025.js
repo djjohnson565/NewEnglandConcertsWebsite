@@ -8,7 +8,7 @@ const events2025 = [
       tour: "The Sickness 25th Anniversary Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/4G74gtXOnEoCzoFGbnPqhS?utm_source=generator",
       youtubeUrl: "https://www.youtube.com/watch?v=pAAKTnhmfYQ&list=PLmS7BWqMf0kmxSpVFFeqfhVU5B2-PTxbS",
-      page: "disturbed.html"
+      page: null
     },
     {
       name: "Heart w/ Lucina Williams",
@@ -17,7 +17,7 @@ const events2025 = [
       tour: "Royal Flush Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/46G1qfDzK0e8zkmdWMhamS?utm_source=generator",
       youtubeUrl: "https://www.youtube.com/playlist?list=PLmS7BWqMf0kkOoYqcxPVuloqT-VOs00Jj",
-      page: "heart.html"
+      page: null
     },
     {
       name: "AC/DC w/ The Pretty Reckless",
@@ -25,8 +25,8 @@ const events2025 = [
       date: "May 4, 2025",
       tour: "Power Up Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/0MogriMzvqstTxrMLP7h0a?utm_source=generator",
-      youtubeUrl: null,
-      page: "acdc.html"
+      youtubeUrl: "https://www.youtube.com/playlist?list=PLmS7BWqMf0kl_3Acpq8_L4pMPC-Sd2mUs",
+      page: null
     },
     {
       name: "Fall Out Boy - Avril Lavinge",
@@ -35,7 +35,7 @@ const events2025 = [
       tour: "Boston Calling Day 2",
       playlistUrl: "https://open.spotify.com/embed/playlist/3lMHlvnYn0aLk2tfHllGfU?utm_source=generator",
       youtubeUrl: null,
-      page: "bostoncalling2.html"
+      page: null
     },
     {
       name: "Dave Matthews Band - Vampire Weekend",
@@ -44,7 +44,7 @@ const events2025 = [
       tour: "Boston Calling Day 3",
       playlistUrl: "https://open.spotify.com/embed/playlist/6q3owYoeYD08fHvXE9exl5?utm_source=generator",
       youtubeUrl: null,
-      page: "bostoncalling3.html"
+      page: null
     },
     {
       name: "Coldplay w/ Ayra Starr, Elyanna",
@@ -53,7 +53,7 @@ const events2025 = [
       tour: "Music of the Spheres Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/04NFoN8K6hVftj9ruBPflI?utm_source=generator",
       youtubeUrl: null,
-      page: "coldplay.html"
+      page: null
     },
     {
       name: "The Offspring w/ Jimmy Eat World, New Found Glory",
@@ -62,7 +62,7 @@ const events2025 = [
       tour: "Supercharged Worldwide In \'25",
       playlistUrl: "https://open.spotify.com/embed/playlist/3lm7TrOe6602E4UmvDov6O?utm_source=generator",
       youtubeUrl: null,
-      page: "offspring.html"
+      page: null
     },
     {
       name: "Linkin Park w/ PVRIS",
@@ -71,14 +71,50 @@ const events2025 = [
       tour: "From Zero World Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/4zafK8fD5zlvPq70y2D9iG?utm_source=generator",
       youtubeUrl: null,
-      page: "linkinpark.html"
+      page: null
+    },
+    {
+      name: "Stevie Nicks",
+      venue: "TD Garden - Boston, MA",
+      date: "August 12, 2025",
+      tour: "North American Tour 2025",
+      playlistUrl: "https://open.spotify.com/embed/playlist/6JXqyxCzs0JrrSpbJkKPWj?utm_source=generator",
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "David Lee Roth",
+      venue: "Hampton Beach Casino Ballroom - Hampton Beach, NH",
+      date: "August 13, 2025",
+      tour: "Live",
+      playlistUrl: "https://open.spotify.com/embed/playlist/1xBYkEbTZR9MsjcV6XHf3E?utm_source=generator",
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "The Joe Perry Project",
+      venue: "Wang Theatre - Boston, MA",
+      date: "August 19, 2025",
+      tour: "Summer 2025",
+      playlistUrl: "https://open.spotify.com/embed/playlist/3dpheIpShpav8VVAi6juLh?utm_source=generator",
+      youtubeUrl: null,
+      page: null
     },
     {
       name: "Chevelle w/ Asking Alexandria, Dead Poet Society",
       venue: "MGM Music Hall @ Fenway - Boston, MA",
       date: "August 24, 2025",
       tour: "Tour",
-      playlistUrl: null,
+      playlistUrl: "https://open.spotify.com/embed/playlist/5c0jVqCkOzlv4EdgD2smVI?utm_source=generator",
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "The Who",
+      venue: "Fenway Park - Boston, MA",
+      date: "August 26, 2025",
+      tour: "The Song Is Over: The North American Farewell Tour",
+      playlistUrl: "https://open.spotify.com/embed/playlist/7tv6LQP7xo9277N9SevOti?utm_source=generator",
       youtubeUrl: null,
       page: null
     },
@@ -87,7 +123,7 @@ const events2025 = [
       venue: "Amica Mutual Pavilion - Providence, RI",
       date: "August 27, 2025",
       tour: "Summer of \'99 Tour",
-      playlistUrl: null,
+      playlistUrl: "https://open.spotify.com/embed/playlist/0Boaanvq6qe3jw3OIrk4xi?utm_source=generator",
       youtubeUrl: null,
       page: null
     },
@@ -98,7 +134,7 @@ const events2025 = [
       tour: "\"Long Live\" The Black Parade 2025 North American Stadium Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/2JO1MaKcse0tXQKDvDrjRf?utm_source=generator",
       youtubeUrl: null,
-      page: "mcr.html"
+      page: null
     },
     {
       name: "Eric Clapton w/ The Wallflowers",
@@ -107,7 +143,7 @@ const events2025 = [
       tour: "Fall 2025 Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/46dUH7egLky6ibVeXJhyYC?utm_source=generator",
       youtubeUrl: null,
-      page: "ericclapton.html"
+      page: null
     }
   ];
   
