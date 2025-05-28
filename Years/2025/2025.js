@@ -34,7 +34,7 @@ const events2025 = [
       date: "May 24, 2025",
       tour: "Boston Calling Day 2",
       playlistUrl: "https://open.spotify.com/embed/playlist/3lMHlvnYn0aLk2tfHllGfU?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7LNaqHuz1J8",
       page: null
     },
     {
@@ -43,7 +43,7 @@ const events2025 = [
       date: "May 25, 2025",
       tour: "Boston Calling Day 3",
       playlistUrl: "https://open.spotify.com/embed/playlist/6q3owYoeYD08fHvXE9exl5?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7LNaqHuz1J8",
       page: null
     },
     {
@@ -52,6 +52,15 @@ const events2025 = [
       date: "July 16, 2025",
       tour: "Music of the Spheres Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/04NFoN8K6hVftj9ruBPflI?utm_source=generator",
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "Toto & Men at Work w/ Christopher Cross",
+      venue: "BankNH Pavillion - Gilford, NH",
+      date: "July 28, 2025",
+      tour: "Summer 2025",
+      playlistUrl: "https://open.spotify.com/embed/playlist/3dpheIpShpav8VVAi6juLh?utm_source=generator",
       youtubeUrl: null,
       page: null
     },
@@ -92,15 +101,6 @@ const events2025 = [
       page: null
     },
     {
-      name: "The Joe Perry Project",
-      venue: "Wang Theatre - Boston, MA",
-      date: "August 19, 2025",
-      tour: "Summer 2025",
-      playlistUrl: "https://open.spotify.com/embed/playlist/3dpheIpShpav8VVAi6juLh?utm_source=generator",
-      youtubeUrl: null,
-      page: null
-    },
-    {
       name: "Chevelle w/ Asking Alexandria, Dead Poet Society",
       venue: "MGM Music Hall @ Fenway - Boston, MA",
       date: "August 24, 2025",
@@ -110,7 +110,7 @@ const events2025 = [
       page: null
     },
     {
-      name: "The Who",
+      name: "The Who w/ The Joe Perry Project",
       venue: "Fenway Park - Boston, MA",
       date: "August 26, 2025",
       tour: "The Song Is Over: The North American Farewell Tour",
