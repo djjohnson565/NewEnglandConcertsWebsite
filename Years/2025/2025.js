@@ -34,7 +34,7 @@ const events2025 = [
       date: "May 24, 2025",
       tour: "Boston Calling Day 2",
       playlistUrl: "https://open.spotify.com/embed/playlist/3lMHlvnYn0aLk2tfHllGfU?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7LNaqHuz1J8&list=PLmS7BWqMf0kmXoyXZ1ScK9w4btsr_PhTu&pp=gAQB",
       page: null
     },
     {
@@ -43,7 +43,7 @@ const events2025 = [
       date: "May 25, 2025",
       tour: "Boston Calling Day 3",
       playlistUrl: "https://open.spotify.com/embed/playlist/6q3owYoeYD08fHvXE9exl5?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7LNaqHuz1J8&list=PLmS7BWqMf0kmXoyXZ1ScK9w4btsr_PhTu&pp=gAQB",
       page: null
     },
     {
