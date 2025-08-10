@@ -34,7 +34,7 @@ const events2025 = [
       date: "May 24, 2025",
       tour: "Boston Calling Day 2",
       playlistUrl: "https://open.spotify.com/embed/playlist/3lMHlvnYn0aLk2tfHllGfU?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7LNaqHuz1J8&list=PLmS7BWqMf0kmXoyXZ1ScK9w4btsr_PhTu&pp=gAQB",
       page: null
     },
     {
@@ -43,7 +43,16 @@ const events2025 = [
       date: "May 25, 2025",
       tour: "Boston Calling Day 3",
       playlistUrl: "https://open.spotify.com/embed/playlist/6q3owYoeYD08fHvXE9exl5?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7LNaqHuz1J8&list=PLmS7BWqMf0kmXoyXZ1ScK9w4btsr_PhTu&pp=gAQB",
+      page: null
+    },
+    {
+      name: "Queens of the Stone Age w/ The Kills",
+      venue: "MGM Music Hall - Boston, MA",
+      date: "June 10, 2025",
+      tour: "The End is Nero Tour",
+      playlistUrl: "https://open.spotify.com/playlist/1rnM4Ybxbb4OnRRWsN4NXq?si=3ffc359add6b40c5",
+      youtubeUrl: "https://www.youtube.com/watch?v=qvAHbj3xYEQ&list=PLmS7BWqMf0kla5eF4D5tuPIJsftaRm6Ok&pp=gAQB",
       page: null
     },
     {
@@ -52,7 +61,7 @@ const events2025 = [
       date: "July 16, 2025",
       tour: "Music of the Spheres Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/04NFoN8K6hVftj9ruBPflI?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=oHLssAtgw6c&list=PLmS7BWqMf0kkAqXDRVgqDdz4W5dY3Q-S2&pp=gAQB",
       page: null
     },
     {
@@ -61,7 +70,7 @@ const events2025 = [
       date: "July 30, 2025",
       tour: "Supercharged Worldwide In \'25",
       playlistUrl: "https://open.spotify.com/embed/playlist/3lm7TrOe6602E4UmvDov6O?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=h2gKKOjdCLE&list=PLmS7BWqMf0klV62SJPkz1jbhfbpMy_ej4&pp=gAQB",
       page: null
     },
     {
@@ -70,16 +79,7 @@ const events2025 = [
       date: "August 1, 2025",
       tour: "From Zero World Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/4zafK8fD5zlvPq70y2D9iG?utm_source=generator",
-      youtubeUrl: null,
-      page: null
-    },
-    {
-      name: "Stevie Nicks",
-      venue: "TD Garden - Boston, MA",
-      date: "August 12, 2025",
-      tour: "North American Tour 2025",
-      playlistUrl: "https://open.spotify.com/embed/playlist/6JXqyxCzs0JrrSpbJkKPWj?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=lwVspKzjL_g&list=PLmS7BWqMf0knWmHlayes5aNjl4YSNZqtQ&pp=gAQB",
       page: null
     },
     {
@@ -88,24 +88,6 @@ const events2025 = [
       date: "August 13, 2025",
       tour: "Live",
       playlistUrl: "https://open.spotify.com/embed/playlist/1xBYkEbTZR9MsjcV6XHf3E?utm_source=generator",
-      youtubeUrl: null,
-      page: null
-    },
-    {
-      name: "The Joe Perry Project",
-      venue: "Wang Theatre - Boston, MA",
-      date: "August 19, 2025",
-      tour: "Summer 2025",
-      playlistUrl: "https://open.spotify.com/embed/playlist/3dpheIpShpav8VVAi6juLh?utm_source=generator",
-      youtubeUrl: null,
-      page: null
-    },
-    {
-      name: "Chevelle w/ Asking Alexandria, Dead Poet Society",
-      venue: "MGM Music Hall @ Fenway - Boston, MA",
-      date: "August 24, 2025",
-      tour: "Tour",
-      playlistUrl: "https://open.spotify.com/embed/playlist/5c0jVqCkOzlv4EdgD2smVI?utm_source=generator",
       youtubeUrl: null,
       page: null
     },
@@ -142,6 +124,15 @@ const events2025 = [
       date: "September 16, 2025",
       tour: "Fall 2025 Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/46dUH7egLky6ibVeXJhyYC?utm_source=generator",
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "All Time Low w/ Mayday Parade, Four Year Strong, The Paradox",
+      venue: "MGM Music Hall - Boston, MA",
+      date: "November 22, 2025",
+      tour: "Tour",
+      playlistUrl: null,
       youtubeUrl: null,
       page: null
     }
