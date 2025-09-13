@@ -144,7 +144,7 @@ const events2025 = [
       playlistUrl: "https://open.spotify.com/embed/playlist/5Q9BX4DEP7FZPyZ1YmowQF?utm_source=generator",
       youtubeUrl: null,
       page: null
-    }
+    },
     {
       name: "All Time Low w/ Mayday Parade, Four Year Strong, The Paradox",
       venue: "MGM Music Hall - Boston, MA",
