@@ -88,7 +88,7 @@ const events2025 = [
       date: "August 13, 2025",
       tour: "Live",
       playlistUrl: "https://open.spotify.com/embed/playlist/1xBYkEbTZR9MsjcV6XHf3E?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=XQW0i3opBH0",
       page: null
     },
     {
@@ -97,7 +97,7 @@ const events2025 = [
       date: "August 26, 2025",
       tour: "The Song Is Over: The North American Farewell Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/7tv6LQP7xo9277N9SevOti?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=JqAar6ul4UE",
       page: null
     },
     {
@@ -106,7 +106,7 @@ const events2025 = [
       date: "August 27, 2025",
       tour: "Summer of \'99 Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/0Boaanvq6qe3jw3OIrk4xi?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=rK4QpSEvKSk",
       page: null
     },
     {
@@ -115,6 +115,15 @@ const events2025 = [
       date: "September 7, 2025",
       tour: "\"Long Live\" The Black Parade 2025 North American Stadium Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/2JO1MaKcse0tXQKDvDrjRf?utm_source=generator",
+      youtubeUrl: "https://www.youtube.com/watch?v=p9b4THd1WI8",
+      page: null
+    },
+    {
+      name: "Wheatus w/ Gabrielle Sterbenz",
+      venue: "The Drake - Amherst, MA",
+      date: "September 12, 2025",
+      tour: "25th Anniversary Acoustic Tour",
+      playlistUrl: "https://open.spotify.com/embed/playlist/1IfOP7P30ZO1ZeRp0km3Ke?utm_source=generator",
       youtubeUrl: null,
       page: null
     },
@@ -128,11 +137,20 @@ const events2025 = [
       page: null
     },
     {
+      name: "Cheap Trick",
+      venue: "Lynn Memorial Auditorium - Lynn, MA",
+      date: "October 25, 2025",
+      tour: "Tour",
+      playlistUrl: "https://open.spotify.com/embed/playlist/5Q9BX4DEP7FZPyZ1YmowQF?utm_source=generator",
+      youtubeUrl: null,
+      page: null
+    }
+    {
       name: "All Time Low w/ Mayday Parade, Four Year Strong, The Paradox",
       venue: "MGM Music Hall - Boston, MA",
       date: "November 22, 2025",
       tour: "Tour",
-      playlistUrl: null,
+      playlistUrl: "https://open.spotify.com/embed/playlist/6NGJXfmzZtT04uRE1qSNT0?utm_source=generator",
       youtubeUrl: null,
       page: null
     }
