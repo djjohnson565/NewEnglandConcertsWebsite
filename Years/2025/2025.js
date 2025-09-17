@@ -124,7 +124,7 @@ const events2025 = [
       date: "September 12, 2025",
       tour: "25th Anniversary Acoustic Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/1IfOP7P30ZO1ZeRp0km3Ke?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://youtu.be/4TSKINI9hCc?si=c_RnilAZE86d2EHE",
       page: null
     },
     {
@@ -133,7 +133,7 @@ const events2025 = [
       date: "September 16, 2025",
       tour: "Fall 2025 Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/46dUH7egLky6ibVeXJhyYC?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=7NvhnvXVf9s&list=PLmS7BWqMf0kkgc0OH5nlhLfJcB34hSaA1&pp=gAQB",
       page: null
     },
     {
@@ -149,7 +149,7 @@ const events2025 = [
       name: "All Time Low w/ Mayday Parade, Four Year Strong, The Paradox",
       venue: "MGM Music Hall - Boston, MA",
       date: "November 22, 2025",
-      tour: "Tour",
+      tour: "Everyone's Talking! Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/6NGJXfmzZtT04uRE1qSNT0?utm_source=generator",
       youtubeUrl: null,
       page: null

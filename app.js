@@ -10,6 +10,7 @@ console.log("app.js loaded!");
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
+              <a href="Years/2026/2026.html">2026</a>
               <a href="Years/2025/2025.html">2025</a>
               <a href="Years/2024/2024.html">2024</a>
               <a href="Years/2023/2023.html">2023</a>
