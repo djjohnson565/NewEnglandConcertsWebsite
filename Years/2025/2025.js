@@ -137,6 +137,15 @@ const events2025 = [
       page: null
     },
     {
+      name: "Twenty One Pilots w/ Dayglow",
+      venue: "Xfinity Theatre - Hartford, CT",
+      date: "September 30, 2025",
+      tour: "The Clancy Tour: Breach",
+      playlistUrl: "https://open.spotify.com/embed/playlist/4xAF3N6ZQp4mDqvkMeCnDl?utm_source=generator",
+      youtubeUrl: "https://www.youtube.com/watch?v=RH56vcO_qB4&list=PLmS7BWqMf0kl4MFUMMwLJltJF8dTXBS1G&pp=gAQB",
+      page: null
+    },
+    {
       name: "Cheap Trick",
       venue: "Lynn Memorial Auditorium - Lynn, MA",
       date: "October 25, 2025",
