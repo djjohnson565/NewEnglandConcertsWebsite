@@ -2,7 +2,7 @@ console.log("2026.js loaded!");
 
 const events2026 = [
     {
-      name: "REZZ",
+      name: "REZZ w/ EDDIE, Digital Ethos",
       venue: "Roadrunner - Boston, MA",
       date: "Janurary 17, 2026",
       tour: "As The Pendulum Swings Tour",
@@ -16,6 +16,42 @@ const events2026 = [
       date: "March 12, 2026",
       tour: "Legends on Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/0QAdjqUh5T4hRIlJ5Fm1HA?utm_source=generator",
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "Evanescence w/ Spiritbox, Nova Twins",
+      venue: "Xfinity Center - Mansfield, MA",
+      date: "June 21, 2026",
+      tour: "2026 World Tour",
+      playlistUrl: null,
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "Avenged Sevenfold w/ Good Charlotte",
+      venue: "Xfinity Center - Mansfield, MA",
+      date: "August 12, 2026",
+      tour: "North American Tour 2026",
+      playlistUrl: null,
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "Iron Maiden w/ Megadeth",
+      venue: "TD Garden - Boston, MA",
+      date: "September 9, 2026",
+      tour: "Run for Your Lives World Tour",
+      playlistUrl: null,
+      youtubeUrl: null,
+      page: null
+    },
+    {
+      name: "Rush",
+      venue: "TD Garden - Boston, MA",
+      date: "September 14, 2026",
+      tour: "Fifty Something Tour",
+      playlistUrl: null,
       youtubeUrl: null,
       page: null
     }

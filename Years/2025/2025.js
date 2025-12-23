@@ -151,7 +151,7 @@ const events2025 = [
       date: "October 25, 2025",
       tour: "Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/5Q9BX4DEP7FZPyZ1YmowQF?utm_source=generator",
-      youtubeUrl: null,
+      youtubeUrl: "https://www.youtube.com/watch?v=QYfex9OvNGk",
       page: null
     },
     {
@@ -160,6 +160,15 @@ const events2025 = [
       date: "November 22, 2025",
       tour: "Everyone's Talking! Tour",
       playlistUrl: "https://open.spotify.com/embed/playlist/6NGJXfmzZtT04uRE1qSNT0?utm_source=generator",
+      youtubeUrl: "https://www.youtube.com/watch?v=GkG5MGEQ0oU",
+      page: null
+    },
+    {
+      name: "Silverstein w/ Thursday, Free Throw, Bloom",
+      venue: "The Palladium - Worcester, MA",
+      date: "December 19, 2025",
+      tour: "25 Years of Noise Tour",
+      playlistUrl: "https://open.spotify.com/embed/playlist/6tCcS3CzcnD1LFrPkaa9sx?utm_source=generator",
       youtubeUrl: null,
       page: null
     }
